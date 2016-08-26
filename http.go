@@ -17,7 +17,7 @@ func to_roman(n int)  string {
     for n>0 {
 	if n == 4 {
 	    n = n - 4
-	    tmp = tmp + "IV"
+	    tmp = tmp + "V"
 	} else {
 	n = n - 1
 	tmp = tmp + "I"
